@@ -1,0 +1,92 @@
+# Arquivos de Bytecode e Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de Banco de Dados
+*.sqlite3
+db.sqlite3
+/db.sqlite3-journal
+
+# Ambiente Virtual
+/venv/
+/env/
+/.env
+/virtual/
+/venv.bak/
+/env.bak/
+
+# Arquivos de Dependências (gerenciadores de pacotes)
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+*.egg-info/
+*.egg
+/instance/
+/var/
+
+# Arquivos de Configuração de IDE e Editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.spyderproject
+.ropeproject
+
+# Django - Arquivos de Mídia e Estáticos coletados
+/media/
+/static/
+# Descomente a linha abaixo se você NÃO quer versionar os arquivos estáticos da sua app.
+# Geralmente, é melhor versioná-los, mas não os arquivos coletados pelo collectstatic.
+# */static/
+
+# Arquivos de Log
+*.log
+logs/
+*.log.*
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de Testes e Cobertura
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Arquivos de Documentação Gerados
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Arquivos de Notebooks
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Arquivos de build do Fabric
+/fabfile.pyc
